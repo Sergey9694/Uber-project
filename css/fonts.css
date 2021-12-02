@@ -1,43 +1,48 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?mt5wny');
-  src:  url('../fonts/icomoon.eot?mt5wny#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?mt5wny') format('truetype'),
-    url('../fonts/icomoon.woff?mt5wny') format('woff'),
-    url('../fonts/icomoon.svg?mt5wny#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'MuseoModerno';
+    src: url('../fonts/MuseoModerno-Light.eot');
+    src: local('MuseoModerno Light'), local('MuseoModerno-Light'),
+        url('../fonts/MuseoModerno-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoModerno-Light.woff2') format('woff2'),
+        url('../fonts/MuseoModerno-Light.woff') format('woff'),
+        url('../fonts/MuseoModerno-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak-as: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url('../fonts/MuseoModerno-Bold.eot');
+    src: local('MuseoModerno Bold'), local('MuseoModerno-Bold'),
+        url('../fonts/MuseoModerno-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoModerno-Bold.woff2') format('woff2'),
+        url('../fonts/MuseoModerno-Bold.woff') format('woff'),
+        url('../fonts/MuseoModerno-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
-.icon-facebook:before {
-  content: "\ea90";
-  color: #fff;
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url('../fonts/MuseoModerno-Regular.eot');
+    src: local('MuseoModerno Regular'), local('MuseoModerno-Regular'),
+        url('../fonts/MuseoModerno-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoModerno-Regular.woff2') format('woff2'),
+        url('../fonts/MuseoModerno-Regular.woff') format('woff'),
+        url('../fonts/MuseoModerno-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-.icon-instagram:before {
-  content: "\ea92";
-  color: #fff;
+
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url('../fonts/MuseoModerno-Medium.eot');
+    src: local('MuseoModerno Medium'), local('MuseoModerno-Medium'),
+        url('../fonts/MuseoModerno-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoModerno-Medium.woff2') format('woff2'),
+        url('../fonts/MuseoModerno-Medium.woff') format('woff'),
+        url('../fonts/MuseoModerno-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
-.icon-twitter:before {
-  content: "\ea96";
-  color: #fff;
-}
-.icon-linkedin:before {
-  content: "\eac9";
-  color: #fff;
-}
+
